@@ -16,7 +16,7 @@ In the original VBA code, we created an outer for Loop (i) that set the total vo
 ![Original_Nested_Loop](https://user-images.githubusercontent.com/103215123/167003295-25d0d4fc-e70e-4bd5-957a-28d54ca9ef59.png)
 
       
-The Refactored VBA code uses a ticker index, and sets the total volume, starting price, and ending price as output arrays.  The refactored code also initializes the ticker volumes to zero.  The second loop goes over all of the rows in the spreadsheet, but uses the ticker index to only loop through the rows one time to get the outputs for ticker, volume, and return.  
+The macro for the refactored code can be found in Module 2, and the 'Run All Stocks Analysis' button is set up to run the refactored code.  The Refactored VBA code uses a ticker index, and sets the total volume, starting price, and ending price as output arrays.  The refactored code also initializes the ticker volumes to zero.  The second loop goes over all of the rows in the spreadsheet, but uses the ticker index to only loop through the rows one time to get the outputs for ticker, volume, and return.  
       
 ![Refactored_tickerIndex_Arrays](https://user-images.githubusercontent.com/103215123/167003707-8f6bf690-2b4f-4d58-864a-c9e6e8a3594b.png)
 
