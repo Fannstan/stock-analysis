@@ -39,4 +39,5 @@ The result of refactoring the code is significantly shorter run times for each y
 Refactoring code can improve the efficiency of the code and make the code easier to follow for other programers to use in the future. Some disadvantages of refactoring are that though the code may run faster and be easier to read or understand for programmers who use the code in the future, these advantages are not always seen by the end user.  
       
 3b) How do these pros and cons apply to refactoring the original VBA script?
+
 The pros of refactoring the code in this example is that the refactored code has faster run times than the original code and it has been reorganized in a way that makes it more applicable to larger amounts of data. The biggest disadvantage for refactoring this project was the amount of time taken to rewrite the code.  
