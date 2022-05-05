@@ -2,13 +2,15 @@
 
 ## 1. Overview of Project: 
       Steve has been assisting his parents with building a stock portfolio that is comprised of clean energy or green stocks.  Using VBA, the data that Steve provided for 12 green stocks was analyzed and presented in an excel workbook.  The analysis showcased the total daily volume traded and the return for each stock.  The purpose of this project was to take this analysis a step further and refactor the VBA script so that it can be easily used by Steve to analyze any number of stocks for his clients.  The goal of this project is speed up the run time of the VBA script by creating a ticker index and enhancing the code so that the data only needs to be looped through one time to produce the same analysis for each stock.   
+      
 ## 2. Results:
       The original VBA code run time for 2017 was 0.9023438 seconds and for 2018 was 1.003906 seconds, as shown in the screen shots below: 
       
-      ![Timer_Original_Script_2017](https://user-images.githubusercontent.com/103215123/166981613-953d8f29-a7b1-4b48-a55e-ce58e455edb3.png)
-      
-      ![Timer_Original_Script_2018](https://user-images.githubusercontent.com/103215123/166981660-340cfa91-720a-469a-aaa9-50d1f4a2f40d.png)
+      ![Timer_Original_Script_2017](https://user-images.githubusercontent.com/103215123/166998340-8d9a854f-0604-4f18-8efb-0414b77f8551.png)
 
+      ![Timer_Original_Script_2018](https://user-images.githubusercontent.com/103215123/166998619-26815504-114e-4c53-abcc-a1a35995d18e.png)
+
+      
       In the original VBA code, we created an outer for Loop (i) that set the total volume to zero after each time the code looped or finished through the analysis of a  ticker, the inner for Loop (j) runs through each row giving the total volume and the starting and ending prices of each ticker to calculate the return.  
       
       ![Original_Nested_Loop](https://user-images.githubusercontent.com/103215123/166984053-ac76ae3d-802b-4853-973f-40df1ba54a32.png)
